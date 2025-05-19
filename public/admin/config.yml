@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "redirects"
+    label: "Redirects"
+    folder: "content/redirects"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "From", name: "from", widget: "string"}
+      - {label: "To", name: "to", widget: "string"}
+      - {label: "Status", name: "status", widget: "number", default: 301}
