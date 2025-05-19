@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const redirectsDir = path.join(__dirname, '../content/redirects');
-const outputPath = path.join(__dirname, '..', 'public', '_redirects');
+const outputFile = path.join(__dirname, '..', 'public', '_redirects');
 
 let redirects = '';
 
