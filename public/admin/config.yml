@@ -12,6 +12,6 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "From", name: "from", widget: "string"}
-      - {label: "To", name: "to", widget: "string"}
-      - {label: "Status", name: "status", widget: "number", default: 301}
+      - { label: "From", name: "from", widget: "string" }
+      - { label: "To", name: "to", widget: "string" }
+      - { label: "Status", name: "status", widget: "number", default: 301 }
