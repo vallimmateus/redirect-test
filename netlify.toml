@@ -1,0 +1,12 @@
+[build]
+  environment = { NODE_VERSION = "22.12.0" }
+  command = "pnpm run build"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "/teste"
+  to = "https://www.cobli.co/"
+  status = 301
+  force = true
